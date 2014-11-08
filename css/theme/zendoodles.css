@@ -8,11 +8,17 @@
 /*********************************************
  * LOGO
  *********************************************/
-.palantir-logo {
+.logos {
   position: absolute;
-  width: 100px;
+  width: 100%;
   bottom: 3em;
-  left: 3em; }
+  /*left: 3em;*/
+  text-align: center;
+}
+
+.logos a {
+  margin: 0 1em;
+}
 
 /*********************************************
  * GLOBAL STYLES
@@ -44,7 +50,7 @@ body {
   color: #eeeeee;
   line-height: 0.9em;
   letter-spacing: -0.025em;
-  font-weight: 600; }
+}
 
 /*********************************************
  * CALLOUT TEXT
